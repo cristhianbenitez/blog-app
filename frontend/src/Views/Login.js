@@ -26,8 +26,8 @@ export const Login = () => {
       <h2 className="mb-4">Login</h2>
       <Form.Label htmlFor="username">Username</Form.Label>
       <Form.Control {...userName} id="username" aria-describedby="usernameHelpBlog" />
-      <Form.Label htmlFor="inputPassword5">Password</Form.Label>
-      <Form.Control {...password} id="inputPassword5" aria-describedby="passwordHelpBlock" />
+      <Form.Label htmlFor="password">Password</Form.Label>
+      <Form.Control {...password} id="password" aria-describedby="passwordHelpBlock" />
       <Form.Text id="passwordHelpBlock" muted className="mb-3">
         Your password must be whatever you want
       </Form.Text>

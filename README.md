@@ -58,9 +58,13 @@ This Project has just a general name, but it was built as a final version from t
 * [React.js](https://reactjs.org/)
 * [Redux](https://redux.js.org/)
 * [Redux Toolkit](https://redux-toolkit.js.org/)
-* [Bootstrap](https://styled-components.com/)
-* [React-chartjs-2](https://react-chartjs-2.js.org/)
-* [Coin Gecko API](https://www.coingecko.com/en/api/documentation)
+* [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+* [Nodejs](https://nodejs.org/en/)
+* [Expressjs](https://expressjs.com/)
+* [MongoDB](https://www.mongodb.com/)
+* [Mongoose](https://www.mongoose.com/)
+* [Jest](https://jestjs.io/)
+* [Cypress](https://www.cypress.io/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -91,28 +95,6 @@ To get a local copy up and running follow these simple example steps.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Contributing
-
- Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right"><a href="#top">back to top</a>)</p>
-
 <!-- CONTACT -->
 ## Contact
 
@@ -132,4 +114,4 @@ Project Link: [https://github.com/cristhianbenitez/blog-app](https://github.com/
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-[product-screenshot]: https://i.ibb.co/mBZ3SVX/crypto-app.png
+[product-screenshot]: https://i.imgur.com/54upZAc.png

@@ -18,7 +18,7 @@ export const Toggleable = forwardRef((props, ref) => {
   });
 
   return (
-    <div style={{ margin: '1em 0 ' }} >
+    <div style={{ margin: '1em 0 ' }}>
       <div style={hideWhenVisible}>
         <button type="button" className="btn btn-outline-dark" onClick={toggleVisibility}>
           {props.buttonLabel}

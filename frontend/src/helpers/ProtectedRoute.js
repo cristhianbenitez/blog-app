@@ -1,7 +1,9 @@
 import { Navigate, Outlet } from 'react-router-dom';
 
 const ProtectedRoute = ({ user, children }) => {
-  if (!user.token) {
+  const loggedUser = JSON.parse(localStorage.loggedUser);
+
+  if (!user.token && !loggedUser.token) {
     return <Navigate to="/login" replace />;
   }
   return children ? children : <Outlet />;

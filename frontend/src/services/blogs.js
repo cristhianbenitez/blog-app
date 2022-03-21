@@ -1,5 +1,7 @@
 import axios from 'axios';
-const baseUrl = '/api/blogs';
+// eslint-disable-next-line no-undef
+const baseUrl = process.env.REACT_APP_BASE_URL;
+const requestUrl = `${baseUrl}/api/blogs`;
 
 let token;
 const setToken = (newToken) => {
@@ -7,12 +9,12 @@ const setToken = (newToken) => {
 };
 
 const getAll = async () => {
-  const response = await axios.get(baseUrl);
+  const response = await axios.get(requestUrl);
   return response.data;
 };
 
 const getOne = async (id) => {
-  const response = await axios.get(`${baseUrl}/${id}`);
+  const response = await axios.get(`${requestUrl}/${id}`);
   return response.data;
 };
 
@@ -21,12 +23,12 @@ const create = async (newObject) => {
     headers: { Authorization: token },
   };
 
-  const response = await axios.post(baseUrl, newObject, config);
+  const response = await axios.post(requestUrl, newObject, config);
   return response.data;
 };
 
 const update = async (id, newObject) => {
-  const response = await axios.put(`${baseUrl}/${id}`, newObject);
+  const response = await axios.put(`${requestUrl}/${id}`, newObject);
   return response.data;
 };
 
@@ -35,7 +37,7 @@ const deleteOne = async (id) => {
     headers: { Authorization: token },
   };
 
-  const response = await axios.delete(`${baseUrl}/${id}`, config);
+  const response = await axios.delete(`${requestUrl}/${id}`, config);
   return response.data;
 };
 
@@ -43,7 +45,7 @@ const addComment = async (id, comment) => {
   const config = {
     headers: { Authorization: token },
   };
-  const response = await axios.post(`${baseUrl}/${id}/comments`, { comment }, config);
+  const response = await axios.post(`${requestUrl}/${id}/comments`, { comment }, config);
   return response.data;
 };
 

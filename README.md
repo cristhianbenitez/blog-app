@@ -7,8 +7,8 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 <br />
 <div align="center">
-  <a href="https://github.com/cristhianbenitez/bitmarket">
-    <img src="public/logo512.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/cristhianbenitez/blog-app">
+    <img src="public/android-chrome-512x512" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Bit Market</h3>
@@ -16,11 +16,11 @@
   <p align="center">
     Bit Market is a information data platform around crypto currencies prices.
     <br />
-    <a href="https://bitmarket.vercel.app/">View Demo</a>
+    <a href="https://blog-app.vercel.app/">View Demo</a>
     ·
-    <a href="https://github.com/cristhianbenitez/bitmarket/issues">Report Bug</a>
+    <a href="https://github.com/cristhianbenitez/blog-app/issues">Report Bug</a>
     ·
-    <a href="https://github.com/cristhianbenitez/bitmarket/issues">Request Feature</a>
+    <a href="https://github.com/cristhianbenitez/blog-app/issues">Request Feature</a>
   </p>
 </div>
 
@@ -81,7 +81,7 @@ To get a local copy up and running follow these simple example steps.
 2. Clone the repo
 
    ```sh
-   git clone https://github.com/cristhianbenitez/bitmarket.git
+   git clone https://github.com/cristhianbenitez/blog-app.git
    ```
 
 3. Install NPM packages
@@ -125,7 +125,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@pipebenitez25](https://twitter.com/pipebenitez25) - cristhianbenitez@gmail.com
 
-Project Link: [https://github.com/cristhianbenitez/bitmarket](https://github.com/cristhianbenitez/bitmarket)
+Project Link: [https://github.com/cristhianbenitez/blog-app](https://github.com/cristhianbenitez/blog-app)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -139,16 +139,16 @@ Project Link: [https://github.com/cristhianbenitez/bitmarket](https://github.com
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-[contributors-shield]: https://img.shields.io/github/contributors/cristhianbenitez/bitmarket.svg?style=for-the-badge
-[contributors-url]: https://github.com/cristhianbenitez/bitmarket/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/cristhianbenitez/bitmarket.svg?style=for-the-badge
-[forks-url]: https://github.com/cristhianbenitez/bitmarket/network/members
-[stars-shield]: https://img.shields.io/github/stars/cristhianbenitez/bitmarket.svg?style=for-the-badge
-[stars-url]: https://github.com/cristhianbenitez/bitmarket/stargazers
-[issues-shield]: https://img.shields.io/github/issues/cristhianbenitez/bitmarket.svg?style=for-the-badge
-[issues-url]: https://github.com/cristhianbenitez/bitmarket/issues
-[license-shield]: https://img.shields.io/github/license/cristhianbenitez/bitmarket.svg?style=for-the-badge
-[license-url]: https://github.com/cristhianbenitez/bitmarket/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/cristhianbenitez/blog-app.svg?style=for-the-badge
+[contributors-url]: https://github.com/cristhianbenitez/blog-app/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/cristhianbenitez/blog-app.svg?style=for-the-badge
+[forks-url]: https://github.com/cristhianbenitez/blog-app/network/members
+[stars-shield]: https://img.shields.io/github/stars/cristhianbenitez/blog-app.svg?style=for-the-badge
+[stars-url]: https://github.com/cristhianbenitez/blog-app/stargazers
+[issues-shield]: https://img.shields.io/github/issues/cristhianbenitez/blog-app.svg?style=for-the-badge
+[issues-url]: https://github.com/cristhianbenitez/blog-app/issues
+[license-shield]: https://img.shields.io/github/license/cristhianbenitez/blog-app.svg?style=for-the-badge
+[license-url]: https://github.com/cristhianbenitez/blog-app/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/cristhianbenitez
 [product-screenshot]: https://i.ibb.co/mBZ3SVX/crypto-app.png

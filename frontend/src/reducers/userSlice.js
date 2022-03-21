@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { blogsService, loginService } from '../services';
+import { blogsService, loginService, usersService } from '../services';
 import { handleNotification } from './notificationSlice';
 
 const initialState = {};
@@ -23,6 +23,18 @@ export const handleLogin = (credentials, navigate) => async (dispatch) => {
     navigate('/');
   } catch (error) {
     dispatch(handleNotification('Wrong Credentials', 'error'));
+  }
+};
+export const handleSignUp = (credentials, navigate) => async (dispatch) => {
+  try {
+    const newUser = await usersService.signup(credentials);
+    blogsService.setToken(newUser.data.token);
+    dispatch(setUser(newUser.data));
+    localStorage.setItem('loggedUser', JSON.stringify(newUser.data));
+    navigate('/');
+  } catch (error) {
+    const errorMsg = error.response.data.error;
+    dispatch(handleNotification(errorMsg, 'error'));
   }
 };
 

@@ -13,4 +13,9 @@ const getById = async (id) => {
   return response.data;
 };
 
-export default { getAll, getById };
+const signup = (credentials) => {
+  const { username, password, name } = credentials;
+  return axios.post(requestUrl, { username, password, name });
+};
+
+export default { getAll, getById, signup };

@@ -7,7 +7,7 @@ import { Layout, Notification } from './components';
 import ProtectedRoute from './helpers/ProtectedRoute';
 import { handleLoggedUser } from './reducers/userSlice';
 
-import { IndividualBlog, UserInformation, UsersList, Login, Blogs } from './Views';
+import { IndividualBlog, UserInformation, UsersList, Login, Blogs, SignUp } from './Views';
 
 const App = () => {
   const user = useSelector((state) => state.user);
@@ -25,6 +25,7 @@ const App = () => {
       <Routes>
         <Route element={<Layout />}>
           <Route path="login" element={<Login />} />
+          <Route path="signup" element={<SignUp />} />
           <Route element={<ProtectedRoute user={isUserAuth} />}>
             <Route path="/" element={<Blogs />} c />
             <Route path="users" element={<UsersList />} />

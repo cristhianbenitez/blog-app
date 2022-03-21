@@ -15,6 +15,7 @@ export const Notification = () => {
       justifyContent: 'center',
       fontSize: '1.5rem',
       padding: '.5em',
+      textTransform: 'capitalize',
     },
   };
   return (

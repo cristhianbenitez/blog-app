@@ -24,7 +24,7 @@ export const Navbar = () => {
     <div className="w-100">
       <Nav className="d-flex justify-content-end " activeKey={pathname} variant="pills">
         <Nav.Item>
-          <Nav.Link as={Link} to="signup" eventKey="/signup" disabled>
+          <Nav.Link as={Link} to="signup" eventKey="/signup">
             Sign Up
           </Nav.Link>
         </Nav.Item>

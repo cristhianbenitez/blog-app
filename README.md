@@ -1,10 +1,3 @@
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 <br />
 <div align="center">
   <a href="https://github.com/cristhianbenitez/blog-app">
@@ -139,16 +132,4 @@ Project Link: [https://github.com/cristhianbenitez/blog-app](https://github.com/
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-[contributors-shield]: https://img.shields.io/github/contributors/cristhianbenitez/blog-app.svg?style=for-the-badge
-[contributors-url]: https://github.com/cristhianbenitez/blog-app/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/cristhianbenitez/blog-app.svg?style=for-the-badge
-[forks-url]: https://github.com/cristhianbenitez/blog-app/network/members
-[stars-shield]: https://img.shields.io/github/stars/cristhianbenitez/blog-app.svg?style=for-the-badge
-[stars-url]: https://github.com/cristhianbenitez/blog-app/stargazers
-[issues-shield]: https://img.shields.io/github/issues/cristhianbenitez/blog-app.svg?style=for-the-badge
-[issues-url]: https://github.com/cristhianbenitez/blog-app/issues
-[license-shield]: https://img.shields.io/github/license/cristhianbenitez/blog-app.svg?style=for-the-badge
-[license-url]: https://github.com/cristhianbenitez/blog-app/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/cristhianbenitez
 [product-screenshot]: https://i.ibb.co/mBZ3SVX/crypto-app.png

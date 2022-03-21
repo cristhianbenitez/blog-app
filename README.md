@@ -1,13 +1,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/cristhianbenitez/blog-app">
-    <img src="public/android-chrome-512x512" alt="Logo" width="80" height="80">
+    <img src="./frontend/public/android-chrome-512x512.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Bit Market</h3>
 
   <p align="center">
-    Bit Market is a information data platform around crypto currencies prices.
+   Blog App is a Full Stack Application
     <br />
     <a href="https://blog-app.vercel.app/">View Demo</a>
     ·

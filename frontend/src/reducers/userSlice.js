@@ -31,12 +31,13 @@ export const handleLogOut = () => (dispatch) => {
   dispatch(setUser({}));
 };
 
-export const handleLoggedUser = () => (dispatch) => {
+export const handleLoggedUser = (navigate) => (dispatch) => {
   const loggedUserJSON = localStorage.getItem('loggedUser');
   if (loggedUserJSON) {
     const loggedUser = JSON.parse(loggedUserJSON);
     dispatch(setUser(loggedUser));
     blogsService.setToken(loggedUser.token);
+    navigate('/');
   }
 };
 export default userSlice.reducer;

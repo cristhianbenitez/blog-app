@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
-import { handleLogin, setUser } from '../reducers/userSlice';
+import { handleLogin } from '../reducers/userSlice';
 
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -13,11 +13,6 @@ export const Login = () => {
   const { reset: resetPassword, ...password } = useField('password');
   const dispatch = useDispatch();
   const navigate = useNavigate();
-
-  useEffect(() => {
-    localStorage.removeItem('loggedUser');
-    dispatch(setUser({}));
-  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();

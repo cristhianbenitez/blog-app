@@ -4,7 +4,7 @@
     <img src="./frontend/public/android-chrome-512x512.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Bit Market</h3>
+<h3 align="center">Blog App</h3>
 
   <p align="center">
    Blog App is a Full Stack Application
@@ -47,7 +47,7 @@
 
 ![Product Name Screen Shot][product-screenshot]
 
-Bit Market is a Single Page Application that provides an analysis of the cryptocurrencies market. Offering information about all the cryptocurrencies, their prices, display information through graphs, and information about any specific coin. It also has a portfolio page where you can track the amount of any crypto coin that you own and see insights into the current price, price changes, circulation supply, and maximum supply for each coin.
+This Project has just a general name, but it was built as a final version from the [fullstackopen](https://fullstackopen.com/en/) program. There's not much of the process here but I you wanna see more of the process checkout the solutions from the program [here](https://github.com/cristhianbenitez/fullstackopen)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -58,7 +58,7 @@ Bit Market is a Single Page Application that provides an analysis of the cryptoc
 * [React.js](https://reactjs.org/)
 * [Redux](https://redux.js.org/)
 * [Redux Toolkit](https://redux-toolkit.js.org/)
-* [Styled Components](https://styled-components.com/)
+* [Bootstrap](https://styled-components.com/)
 * [React-chartjs-2](https://react-chartjs-2.js.org/)
 * [Coin Gecko API](https://www.coingecko.com/en/api/documentation)
 

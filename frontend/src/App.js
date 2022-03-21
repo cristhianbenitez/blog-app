@@ -12,7 +12,7 @@ import { IndividualBlog, UserInformation, UsersList, Login, Blogs } from './View
 const App = () => {
   const user = useSelector((state) => state.user);
   const dispatch = useDispatch();
-
+  console.log(user);
   useEffect(() => {
     dispatch(handleLoggedUser());
   }, []);

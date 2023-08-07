@@ -35,6 +35,3 @@ export const Blogs = () => {
     </>
   );
 };
-//  <div key={blog.id}>
-//    <Link to={`/blogs/${blog.id}`}>{blog.title}</Link>
-//  </div>;

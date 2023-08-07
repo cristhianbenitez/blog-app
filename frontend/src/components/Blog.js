@@ -3,11 +3,13 @@ import Button from 'react-bootstrap/Button';
 export const Blog = ({ blog, handleLike }) => {
   const link = blog.url.includes('http') ? blog.url : `//${blog.url}`;
 
+  console.log(blog);
   return (
     <div id="blog-item">
       <h2 className="blog-title">
         {blog.title} by {blog.author}
       </h2>
+      {blog.text}
       <br />
       <a href={link}>{blog.url}</a>
       <span id="likes" className="d-inline-block mb-3">

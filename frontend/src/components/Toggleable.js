@@ -27,7 +27,7 @@ export const Toggleable = forwardRef((props, ref) => {
       <div style={showWhenVisible}>
         {props.children}
         <button className="btn btn-dark" onClick={toggleVisibility}>
-          cancel
+          Cancel
         </button>
       </div>
     </div>

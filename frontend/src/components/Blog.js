@@ -6,12 +6,15 @@ export const Blog = ({ blog, handleLike }) => {
   console.log(blog);
   return (
     <div id="blog-item">
-      <h2 className="blog-title">
+      <h2 className="blog-title mb-6">
         {blog.title} by {blog.author}
       </h2>
-      {blog.text}
+      <p className="text-body">{blog.text}</p>
       <br />
-      <a href={link}>{blog.url}</a>
+      <a className="mb-4" href={link}>
+        {blog.url}
+      </a>
+      <br />
       <span id="likes" className="d-inline-block mb-3">
         <span style={{ marginRight: '1em' }}>{blog.likes} likes</span>
         <Button className="like-handler" onClick={handleLike}>

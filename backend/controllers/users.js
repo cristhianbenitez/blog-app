@@ -8,7 +8,8 @@ usersRouter.get('/', async (request, response) => {
     title: 1,
     author: 1,
     url: 1,
-    likes: 1
+    likes: 1,
+    text: 1
   });
   response.json(users);
 });
@@ -19,7 +20,8 @@ usersRouter.get('/:id', async (request, response) => {
     title: 1,
     author: 1,
     url: 1,
-    likes: 1
+    likes: 1,
+    text: 1
   });
   response.json(users);
 });

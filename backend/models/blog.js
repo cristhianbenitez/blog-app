@@ -5,6 +5,7 @@ const blogSchema = new mongoose.Schema({
   author: { type: String, required: [true, 'Blog author is required'] },
   url: String,
   likes: Number,
+  text: String,
   comments: [{ body: String, date: Date, author: String }],
   user: {
     type: mongoose.Schema.Types.ObjectId,

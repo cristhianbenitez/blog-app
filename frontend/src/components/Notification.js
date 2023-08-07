@@ -6,7 +6,7 @@ import Alert from 'react-bootstrap/Alert';
 export const Notification = () => {
   const { message, status } = useSelector((state) => state.notification);
   const variantController = status === 'success' ? 'success' : 'danger';
-  const hasMessage = message.length > 0;
+  const hasMessage = message.length && message.length > 0;
 
   const styles = {
     notification: {

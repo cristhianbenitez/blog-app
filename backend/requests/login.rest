@@ -5,6 +5,14 @@ POST http://localhost:3003/api/login
 Content-Type: application/json
 
 {
-    "username": "cris0987",
+    "username": "cris12",
+    "password": "123456"
+}
+###
+POST https://blog-app-api-backend.vercel.app/api/login
+Content-Type: application/json
+
+{
+    "username": "cris12",
     "password": "123456"
 }

@@ -15,7 +15,20 @@ POST http://localhost:3003/api/users
 Content-Type: application/json
 
 {
-    "username": "cris0987",
+    "username": "cris12",
+    "name": "Jorge Luis Borges",
+    "password": "123456"
+}
+
+#
+####
+#
+
+POST https://blog-app-api-backend.vercel.app/api/users
+Content-Type: application/json
+
+{
+    "username": "cris12",
     "name": "Jorge Luis Borges",
     "password": "123456"
 }
